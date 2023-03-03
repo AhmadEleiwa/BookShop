@@ -18,7 +18,7 @@ The project provides book access to anyone. But if you want to upload or to mani
 
 
 ### Searching 
-<img src='assets/search.png' />
+<img src='assets/searching.png' />
 
 ### Preview books
 <img src='assets/view.png' />
