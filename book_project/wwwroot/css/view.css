@@ -1,0 +1,95 @@
+body {
+    background-color: #efefef;
+}
+
+.card-view {
+    width: 90%;
+    height: 37em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 0px 2px 3px 1px #3f3f3f;
+    font-family: "Tajawal";
+    background-color: #f1f1f1;
+}
+
+    .card-view .content {
+        width: 60%;
+        height: 100%;
+        word-break: break-all;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+        .card-view .content > * {
+            margin: 2em;
+        }
+
+        .card-view .content .author {
+            margin: 0em;
+            width: 100%;
+            background-color: #1f1f1f;
+            box-shadow: 0px 0 1px 3px #1f1f1ff1;
+            color: #f1f1f1;
+        }
+
+            .card-view .content .author p {
+                margin-left: 1em;
+            }
+
+        .card-view .content .genre {
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .card-view .content .genre .span {
+                width: 5em;
+                background-color: #1f1f1f;
+                color: #f1f1f1;
+                text-align: center;
+                border-radius: 30px;
+            }
+
+        .card-view .content button {
+            width:40%;
+            background-color: #1f1f1f;
+            color: #f1f1f1;
+            border-radius: 3px;
+            padding: 0.4em 0;
+            cursor: pointer;
+            border: none;
+            transition: all 0.17s ease;
+        }
+
+            .card-view .content button:hover {
+                background-color: #3e3e3e;
+            }
+
+        .card-view .content a {
+            width: 40%;
+            background-color: tomato;
+            color: #f1f1f1;
+            text-align: center;
+            border-radius: 3px;
+            cursor: pointer;
+            border: none;
+            transition: all 0.17s ease;
+        }
+
+.card-view .content .controll{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+    .card-view .cover {
+        width: 40%;
+        height: 100%;
+        background-color: b;
+    }
+
+        .card-view .cover img {
+            width: 100%;
+            height: 100%;
+        }

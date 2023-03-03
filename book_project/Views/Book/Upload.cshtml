@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model BookForm
+@section Styles{
+
+    <link rel="stylesheet" href="~/css/upload.css" asp-append-version="true" />
+}
+<div class="container">
+    <form class="upload-form"  method="post" enctype="multipart/form-data">
+        <div class="input-row">
+            <label asp-for="Title">book name</label>
+            <input asp-for="Title" type="text">
+        </div>
+        <div class="input-row">
+            <label asp-for="Image">book image</label>
+            <input asp-for="Image"  type="file">
+        </div>
+        <div class="input-row">
+            <label asp-for="File">book file</label>
+            <input asp-for="File" type="file">
+        </div>
+        <div class="input-row">
+            <label asp-for="Description">description</label>
+            <textarea asp-for="Description" ></textarea>
+        </div>
+        <div class="input-row">
+            <label asp-for="GenreId">Genres</label>
+            <select asp-for="GenreId" >
+                @for (int i = 0; i < ViewBag.Genres.Count;i++)
+                {
+                    <option value="@ViewBag.Genres[i].Id">@ViewBag.Genres[i].Name</option>
+                }
+            </select>
+        </div>
+        <button type="submit">Upload</button>
+    </form>
+</div>

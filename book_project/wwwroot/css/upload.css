@@ -1,0 +1,41 @@
+.upload-form{
+    width: 50%;
+    height: 40em;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px 1px rgba(110, 110, 110, 0.705);
+    background-color: rgba(255, 255, 255, 0.903);
+}
+
+.upload-form .input-row{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.upload-form .input-row input, .upload-form .input-row textarea{
+    width: 70%;
+    padding: 0.5em;
+}
+.upload-form button{
+    width: 12em;
+    margin: 0 auto;
+    border: none;
+    background-color: #439A97;
+    color:white;
+    padding: 0.6em 2em;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.17s ease;
+
+
+}
+
+.upload-form button:hover{
+    background-color: #62B6B7; 
+
+}

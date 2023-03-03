@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - book_project</title>
+
+    @RenderSection("Styles", false)
+
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/book_project.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tajawal" asp-append-version="true" />
+
+
+
+   
+</head>
+<body>
+    @RenderBody()
+
+
+   
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

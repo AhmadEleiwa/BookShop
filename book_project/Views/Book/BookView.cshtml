@@ -1,0 +1,86 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Book
+@section Styles{
+
+    <link rel="stylesheet" href="~/css/view.css" asp-append-version="true" />
+}
+<div class="nav-bar">
+    <div class="links">
+        <a asp-action="Index" asp-controller="Home" class="link">
+            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/home-page--v1.png" />
+            <p>Home</p>
+        </a>
+        @if (@Context.Session.GetString("author") != null)
+        {
+            <a asp-action="Upload" asp-controller="Book" class="link">
+                <img src="https://img.icons8.com/ios-filled/30/ffffff/add-book.png" />
+                <p>Upload book</p>
+            </a>
+        }
+        else
+        {
+            <a asp-action="Login" asp-controller="Auth" class="link">
+                <img src="https://img.icons8.com/ios-filled/30/ffffff/add-book.png" />
+                <p>Upload book</p>
+            </a>
+        }
+    </div>
+    <form class="search" method="get" asp-controller="Home" asp-action="Search">
+        <button type="submit">
+            <img src="https://img.icons8.com/ios/30 /ffffff/search--v1.png" />
+        </button>
+        <input name="searchString" type="search">
+    </form>
+    <div class="auth">
+        @if (@Context.Session.GetString("author") == null)
+        {
+            <a class="login" asp-action="Login" asp-controller="Auth">login</a>
+            <a class="register" asp-action="Register" asp-controller="Auth">register</a>
+        }
+        else
+        {
+            <p style="color:white;">@Context.Session.GetString("author")</p>
+            <a class="login" asp-action="Logout" asp-controller="Auth">log out</a>
+
+        }
+
+    </div>
+</div>
+<div class="container">
+    <div class="card-view">
+        <div class="cover">
+            <img src="~/uploads/@Model.Image" alt="">
+        </div>
+        <div class="content">
+            <div class="author ">
+
+                <p>@Model.Author.AuthorName</p>
+            </div>
+            <div>
+
+                <p>@Model.Title</p>
+            </div>
+            <div class="description ">
+                <h3>Description</h3>
+                <p>@Model.Description</p>
+            </div>
+            <div class="genre ">
+                <p>Genres</p>
+                <p class="span">@Model.Genre.Name</p>
+            </div>
+           <div class="controll">
+           <button >READ</button>
+
+            @if (Context.Session.GetInt32("authorId") == Model.AuthorId)
+            {
+                <a asp-action="Delete" asp-route-id="@Model.BookId" asp-controller="Book">DELETE</a>
+
+            }
+           </div>
+        </div>
+    </div>
+</div>

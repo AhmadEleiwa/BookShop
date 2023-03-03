@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+
+}
+@using Microsoft.AspNetCore.Http;
+
+<div class="nav-bar">
+    <div class="links">
+        <a asp-action="Index" asp-controller="Home" class="link">
+            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/home-page--v1.png" />
+            <p>Home</p>
+        </a>
+        @if (@Context.Session.GetString("author") != null)
+        {
+            <a  asp-action="Upload" asp-controller="Book" class="link">
+                <img src="https://img.icons8.com/ios-filled/30/ffffff/add-book.png" />
+            <p>Upload book</p>
+            </a>
+        }else{
+             <a  asp-action="Login" asp-controller="Auth" class="link">
+             <img src="https://img.icons8.com/ios-filled/30/ffffff/add-book.png" />
+            <p>Upload book</p>
+            </a>
+        }
+            </div>
+    <form class="search"  method="get" asp-action="Search">
+        <button type="submit">
+            <img src="https://img.icons8.com/ios/30 /ffffff/search--v1.png" />
+        </button>
+        <input name="searchString" type="search">
+    </form>
+    <div class="auth">
+        @if (@Context.Session.GetString("author") == null)
+        {  
+        <a class="login" asp-action="Login" asp-controller="Auth">login</a>
+        <a class="register" asp-action="Register" asp-controller="Auth" >register</a>
+        }else{
+            <p  style="color:white;">@Context.Session.GetString("author")</p>
+            <a class="login" asp-action="Logout" asp-controller="Auth">log out</a>
+
+        }
+
+    </div>
+</div>
+<div class="container">
+    
+    <h1 class="title">Most popular </h1>
+    <div class="list">
+        @for(int i=0; i<ViewBag.books.Count; i++){
+        <div class="card">
+            <div class="card-title">
+                <h3 class="author-name">@ViewBag.books[i].Title</h3>
+            </div>
+            <div class="content">
+                    <img src="~/uploads/@ViewBag.books[i].Image" alt="">
+            </div>
+            <div class="card-control">
+                <a asp-action="BookView" asp-controller="Book" asp-route-id="@ViewBag.books[i].BookId" >SHOW MORE</a>
+                    @if (Context.Session.GetInt32("authorId") == ViewBag.books[i].AuthorId)
+                    {
+                        <a asp-action="Delete" asp-route-id="@ViewBag.books[i].BookId" asp-controller="Book">DELETE</a>
+                    }
+
+            </div>
+        </div>
+       
+        }
+    </div>
+
+    <h1 class="title">Enginnering </h1>
+    <div class="list">
+        @for (int i = 0; i < ViewBag.Enginner.Count; i++)
+        {
+            <div class="card">
+                <div class="card-title">
+                    <h3 class="author-name">@ViewBag.Enginner[i].Title</h3>
+                </div>
+                <div class="content">
+                    <img src="~/uploads/@ViewBag.Enginner[i].Image" alt="">
+                </div>
+                <div class="card-control">
+                    <a asp-action="BookView" asp-controller="Book" asp-route-id="@ViewBag.Enginner[i].BookId">SHOW MORE</a>
+
+                    @if (Context.Session.GetInt32("authorId") == ViewBag.Enginner[i].AuthorId)
+                    {
+                        <a asp-action="Delete" asp-route-id="@ViewBag.books[i].BookId" asp-controller="Book">DELETE</a>
+
+                    }
+
+                </div>
+            </div>
+
+        }
+    </div>
+
+
+    <h1 class="title">Fantasy </h1>
+    <div class="list">
+        @for (int i = 0; i < ViewBag.Fantasy.Count; i++)
+        {
+            <div class="card">
+                <div class="card-title">
+                    <h3 class="author-name">@ViewBag.Fantasy[i].Title</h3>
+                </div>
+                <div class="content">
+                    <img src="~/uploads/@ViewBag.Fantasy[i].Image" alt="">
+                </div>
+                <div class="card-control">
+                    <a asp-action="BookView" asp-controller="Book" asp-route-id="@ViewBag.Fantasy[i].BookId">SHOW MORE</a>
+
+                    @if (Context.Session.GetInt32("authorId") == ViewBag.Fantasy[i].AuthorId)
+                    {
+                        <a asp-action="Delete" asp-route-id="@ViewBag.books[i].BookId" asp-controller="Book">DELETE</a>
+
+                    }
+
+                </div>
+            </div>
+
+        }
+    </div>
+
+    <h1 class="title">Art </h1>
+    <div class="list">
+        @for (int i = 0; i < ViewBag.Art.Count; i++)
+        {
+            <div class="card">
+                <div class="card-title">
+                    <h3 class="author-name">@ViewBag.Art[i].Title</h3>
+                </div>
+                <div class="content">
+                    <img src="~/uploads/@ViewBag.Art[i].Image" alt="">
+                </div>
+                <div class="card-control">
+                    <a asp-action="BookView" asp-controller="Book" asp-route-id="@ViewBag.Art[i].BookId">SHOW MORE</a>
+
+                    @if (Context.Session.GetInt32("authorId") == ViewBag.Art[i].AuthorId)
+                    {
+                        <a asp-action="Delete" asp-route-id="@ViewBag.books[i].BookId" asp-controller="Book">DELETE</a>
+
+                    }
+
+                </div>
+            </div>
+
+        }
+    </div>
+
+
+</div>
+
+<div class="footer">
+</div>

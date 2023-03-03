@@ -1,0 +1,23 @@
+﻿@model LoginModel
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+@section Styles{
+
+<link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
+}
+
+<div class="container">
+        <form  class="login-card"   method="post">
+            <div class="input-row">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" type="email" />
+            </div>
+            <div class="input-row">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" type="password" />
+            </div>
+            <button type="submit">Login</button>
+        </form>
+ </div>

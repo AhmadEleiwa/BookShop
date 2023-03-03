@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\book_project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\book_project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\18136113._SY475__539c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\18136113._SY475__539c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\18136113._SY475__7bce.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\18136113._SY475__7bce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\18136113._SY475__d054.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\18136113._SY475__d054.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\2318863_1562.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2318863_1562.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\2318863_21c7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2318863_21c7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\2318863_7f14.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2318863_7f14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\2318863_b42b.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2318863_b42b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\31Tvt3hEMDL._AC_SY1000__1bf6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\31Tvt3hEMDL._AC_SY1000__1bf6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\31Tvt3hEMDL._AC_SY1000__ee75.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\31Tvt3hEMDL._AC_SY1000__ee75.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\38469754._SY475__5952.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\38469754._SY475__5952.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\38469754._SY475__5fb1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\38469754._SY475__5fb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\59908303._SY475__da70.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\59908303._SY475__da70.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\59908303._SY475__ea47.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\59908303._SY475__ea47.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\a2ebed74-bbd9-4b63-b8a7-b45687cd9ce4_06bf.webp",
+      "PackagePath": "staticwebassets\\Uploads\\a2ebed74-bbd9-4b63-b8a7-b45687cd9ce4_06bf.webp"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\a2ebed74-bbd9-4b63-b8a7-b45687cd9ce4_d0a5.webp",
+      "PackagePath": "staticwebassets\\Uploads\\a2ebed74-bbd9-4b63-b8a7-b45687cd9ce4_d0a5.webp"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\كتاب-مطرقة-الساحرات_06bb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\كتاب-مطرقة-الساحرات_06bb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\Uploads\\كتاب-مطرقة-الساحرات_f13f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\كتاب-مطرقة-الساحرات_f13f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\css\\auth.css",
+      "PackagePath": "staticwebassets\\css\\auth.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\css\\upload.css",
+      "PackagePath": "staticwebassets\\css\\upload.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\css\\view.css",
+      "PackagePath": "staticwebassets\\css\\view.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ahmad\\source\\repos\\book_project\\book_project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.book_project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.book_project.props",
+      "PackagePath": "build\\book_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.book_project.props",
+      "PackagePath": "buildMultiTargeting\\book_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.book_project.props",
+      "PackagePath": "buildTransitive\\book_project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

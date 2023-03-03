@@ -1,0 +1,187 @@
+
+.list{
+    width: 100%;
+    display: grid;
+    
+    grid-template-columns: auto auto auto auto auto ;
+    align-items: center;
+    
+    background-color: #f1f1f1;
+     justify-content: space-around;
+}
+.title {
+    border-bottom: 1px solid #f1f1f1;
+    width: 30%;
+    transition: all 0.17s ease-in;
+    margin-top:2em;
+}
+.title:hover{
+    width:100%;
+    margin-top:2.2em;
+    
+    border-bottom: 1px solid #3f3f3f;
+}
+    .card {
+        width: 200px;
+        height: 300px;
+        position: relative;
+        margin: 2em 0px;
+        box-shadow: 0px 2px 4px 1px rgb(50, 50, 50);
+    }
+.card .content{
+    width: 100%;
+    height: 100%;
+
+}
+
+.card .content img{
+    width: 100%;
+    height: 100%;
+}
+.card-title{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+    width: 100%;
+    opacity: 0;
+    height: 0%;
+    position: absolute;
+    background: linear-gradient(to bottom , rgba(0, 0, 0, 0.571), rgba(255, 255, 255, 0));
+    transition: all 0.17s ease;
+}
+
+.card-control{
+
+    width: 100%;
+    opacity: 0;
+    height: 0%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0%;
+    z-index: 2;
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.571), rgba(255, 255, 255, 0));
+    transition: all 0.17s ease;
+}
+.card-control button, .card-control a{
+    border-radius: 3px;;
+    padding: .5em 1.1em;
+    background-color: transparent;
+    font-size: 0.8em;
+    color: white;
+    cursor: pointer;
+    transition: all 0.17s ease-out;
+}
+.card-control button:hover, .card-control a:hover{
+    background-color: #439A97;
+}
+.card:has(.card-title):hover .card-title{
+    opacity: 1;
+    height: 30%;
+}
+
+.card:has(.card-control):hover .card-control{
+    opacity: 1;
+    height: 20%;
+}
+
+
+/* nav bar */
+
+.nav-bar{
+    width: 100%;
+    height: 3em;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-bar .links{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-bar .links .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar .links .link *{
+    margin: 0 3px;
+}
+
+.nav-bar .search {
+    /* width: 18em; */
+    height: 2.3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f2f2f;
+    border-radius: 50px;
+}
+.nav-bar .search button{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+
+.nav-bar .search input{
+    width: 4em;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    transition: all 0.17s ease-in;
+}
+
+.nav-bar .search:has(input:focus) input{
+    width: 24em;
+}
+
+ .nav-bar .auth{
+     display:flex;
+     align-items:center;
+     justify-content:space-around;
+ }
+ .nav-bar .auth *{
+        /* border:none; */
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 3px;
+        padding: 0.2em 2em;
+        margin:2px;
+ }
+
+.nav-bar .auth .login{
+    background-color: #439A97;
+    color:white;
+    transition: all 0.17s ease;
+}
+.nav-bar .auth .login:hover{
+
+    background-color: #62B6B7; 
+}
+.nav-bar .auth .register{
+    background-color: #FED049; 
+    color:black;
+
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 18em;
+    background-color: #1f1f1f;
+    margin-top:5em;
+}

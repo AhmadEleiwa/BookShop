@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+
+}
+@using Microsoft.AspNetCore.Http;
+
+<div class="nav-bar">
+    <div class="links">
+        <a asp-action="Index" asp-controller="Home" class="link">
+            <img src="https://img.icons8.com/ios-glyphs/30/ffffff/home-page--v1.png" />
+            <p>Home</p>
+        </a>
+        @if (@Context.Session.GetString("author") != null)
+        {
+            <a asp-action="Upload" asp-controller="Book" class="link">
+                <img src="https://img.icons8.com/ios-filled/30/ffffff/add-book.png" />
+                <p>Upload book</p>
+            </a>
+        }
+        else
+        {
+            <a asp-action="Login" asp-controller="Auth" class="link">
+                <img src="https://img.icons8.com/ios-filled/30/ffffff/add-book.png" />
+                <p>Upload book</p>
+            </a>
+        }
+    </div>
+    <form class="search" method="get" asp-action="search">
+        <button type="submit">
+            <img src="https://img.icons8.com/ios/30 /ffffff/search--v1.png" />
+        </button>
+        <input name="searchString" type="search">
+    </form>
+    <div class="auth">
+        @if (@Context.Session.GetString("author") == null)
+        {
+            <a class="login" asp-action="Login" asp-controller="Auth">login</a>
+            <a class="register" asp-action="Register" asp-controller="Auth">register</a>
+        }
+        else
+        {
+            <p style="color:white;">@Context.Session.GetString("author")</p>
+            <a class="login" asp-action="Logout" asp-controller="Auth">log out</a>
+
+        }
+
+    </div>
+</div>
+<div class="container">
+    Search : @ViewBag.searchValue
+
+    <div class="list">
+        @for (int i = 0; i < ViewBag.books.Count; i++)
+        {
+            <div class="card">
+                <div class="card-title">
+                    <h3 class="author-name">@ViewBag.books[i].Title</h3>
+                </div>
+                <div class="content">
+                    <img src="~/uploads/@ViewBag.books[i].Image" alt="">
+                </div>
+                <div class="card-control">
+                    <a>SHOW MORE</a>
+                    @if (Context.Session.GetInt32("authorId") == ViewBag.books[i].AuthorId)
+                    {
+                        <a>DELETE</a>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>

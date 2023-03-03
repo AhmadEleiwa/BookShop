@@ -1,0 +1,44 @@
+body{
+    background-image: url('https://picsum.photos/1920/1280');
+}
+.login-card{
+    width: 50%;
+    height: 20em;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px 1px rgba(110, 110, 110, 0.705);
+    background-color: rgba(255, 255, 255, 0.903);
+}
+
+.login-card .input-row{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.login-card .input-row input{
+    width: 70%;
+    padding: 0.5em;
+}
+.login-card button{
+    width: 12em;
+    margin: 0 auto;
+    border: none;
+    background-color: #439A97;
+    color:white;
+    padding: 0.6em 2em;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.17s ease;
+
+
+}
+
+.login-card button:hover{
+    background-color: #62B6B7; 
+
+}
