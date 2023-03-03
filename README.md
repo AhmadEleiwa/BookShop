@@ -11,7 +11,9 @@ it accesable to everyone. no need to authentication
 <img src='assets/homepage.png' />
 
 ### Authentication
-The project provides book access to anyone. But if you want to upload or to manipulate your books it had to login on the site. Authentication page as shown below
+The project provides book access to anyone. But if you want to upload or to manipulate your books it had to login on the site. Authentication page as shown below.
+<p></p>
+
 <img src='assets/auth.png' />
 
 ### Uploading books
