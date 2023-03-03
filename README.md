@@ -8,5 +8,5 @@ The project must run in Visual studio c to run correctly. installing ASP.CORE in
 <img src='assets/homepage.png' />
 
 ## Authentication
-The project provides book access to anyone. But if you want to upload or to manipulate your books it had to login on the site. The page 
+The project provides book access to anyone. But if you want to upload or to manipulate your books it had to login on the site. Authentication page as shown below
 <img src='assets/auth.png' />
